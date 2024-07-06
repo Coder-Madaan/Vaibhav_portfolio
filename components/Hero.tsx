@@ -24,7 +24,7 @@ const Hero = () => {
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hi! I&apos;m Vaibhav, a passionate Full Stack Developer.</p>
 
-          <a href="#drive">
+          <a href="https://drive.google.com/file/d/1ius56tvOewwmZ4l2VqT3IuEl7FLVSH2J/view">
             <MagicButton title="See My Resume" icon={<FaLocationArrow />} position="right" />
           </a>
         </div>
