@@ -1,5 +1,5 @@
-import React from "react";
 import { cn } from "@/utils/cn";
+import React from "react";
 
 type SpotlightProps = {
   className?: string;
@@ -48,9 +48,7 @@ export const Spotlight = ({ className, fill }: SpotlightProps) => {
           <feGaussianBlur
             stdDeviation="151"
             result="effect1_foregroundBlur_1065_8"
-          >
-
-          </feGaussianBlur>
+          ></feGaussianBlur>
         </filter>
       </defs>
     </svg>

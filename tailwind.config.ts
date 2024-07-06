@@ -26,6 +26,10 @@ const config = {
       },
     },
     extend: {
+      marquee: {
+        '0%': { transform: 'translateX(100%)' },
+        '100%': { transform: 'translateX(-100%)' },
+      },
       colors: {
         black: {
           DEFAULT: "#000",
@@ -157,6 +161,8 @@ const config = {
         third: "moveInCircle 40s linear infinite",
         fourth: "moveHorizontal 40s ease infinite",
         fifth: "moveInCircle 20s ease infinite",
+        marquee: 'marquee 20s linear infinite',
+
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
