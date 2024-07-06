@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import Approach from "@/components/Approach";
 import RecentProjects from "@/components/RecentProjects";
 import TechStack from "@/components/TechStack";
-import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import { FloatingNav } from "@/components/ui/FloatingNav";
 
 
 const Home = () => {
