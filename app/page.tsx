@@ -1,13 +1,13 @@
 "use client";
 
 import { navItems } from "@/data";
-
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 import Approach from "@/components/Approach";
 import RecentProjects from "@/components/RecentProjects";
 import TechStack from "@/components/TechStack";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+
 
 const Home = () => {
   return (
